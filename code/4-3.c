@@ -5,6 +5,8 @@ int main() {
 
   scanf("%d", &input);
 
+  if (input == 1) printf("false\n");
+
   for (int i = 2; i < input; i++) {
     if (input % i == 0) {
       printf("false\n");
