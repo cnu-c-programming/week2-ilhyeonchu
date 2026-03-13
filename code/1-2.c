@@ -12,8 +12,8 @@ int main() {
   Person p3 = {"park", 432, 1};
 
   printf("%10s %10s %10s\n", "name", "id", "value");
-  printf("%10s %10d %10.2f\n", p1.name, p1.id, p1.value);
-  printf("%10s %10d %10.2f\n", p2.name, p2.id, p2.value);
-  printf("%10s %10d %10.2f\n", p3.name, p3.id, p3.value);
+  printf("%10s %010d %10.2f\n", p1.name, p1.id, p1.value);
+  printf("%10s %010d %10.2f\n", p2.name, p2.id, p2.value);
+  printf("%10s %010d %10.2f\n", p3.name, p3.id, p3.value);
   return 0;
 }
